@@ -1,3 +1,4 @@
+//TEST
 import java.util.Scanner;
 public class KRotation {
     public static int[] reverse (int[] arr){
