@@ -47,3 +47,37 @@ Output 2 :-
 6 5 4 3 2 
 
 */
+
+
+
+
+/*
+
+package javalearn;
+import java.util.Scanner;
+public class Main{
+	private static void mergeSort(int[] nums, int left, int right) {
+		if(left < right) {
+			int mid = left + (right-left)/2;
+			
+			mergeSort(nums, left, mid);
+			mergeSort(nums, mid+1, right);
+			
+			merge(arr, left, right );
+		}
+	}
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int size = sc.nextInt();
+		int[] nums = new int[size];
+		for(int i=0; i<size; i++) nums[i] = sc.nextInt();
+		
+		mergeSort(nums, 0, size-1);
+		
+		for(int i=0; i<size; i++) System.out.print(nums[i]+" ");
+		sc.close();
+	}
+}
+
+
+*/
