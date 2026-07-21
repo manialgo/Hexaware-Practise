@@ -37,9 +37,11 @@ public class PushNegToFront{
 }
 
 
-/* NNED A EASY ? LERAN FURTHER
+/* NEED A EASY ? LEARN FURTHER
 
 import java.util.Scanner;
+import java.util.List;
+import java.util.ArrayList;
 
 public class PushNegToFront {
 
