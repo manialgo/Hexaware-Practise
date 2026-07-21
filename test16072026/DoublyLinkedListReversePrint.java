@@ -1,4 +1,75 @@
+import java.util.Scanner;
 
+class Node{
+	Node prev, next;
+	int data;
+	Node(int data){
+		this.data = data;
+		prev = next = null;
+	}
+}
+
+class DLL{
+	Node head;
+	
+	DLL(){
+		head = null;
+	}
+
+
+	void append(int data) {
+		Node nn = new Node(data);
+		
+		if(head == null) head = nn;
+		else {
+			Node temp = head;
+			while(temp.next != null) {
+				temp = temp.next;
+			}
+			temp.next = nn;
+			nn.prev = temp;
+		}
+		
+	}
+	
+
+	void displayUnitRightToLeft() {
+		if(head == null) {
+			System.out.println("List Empty");
+			return;
+		}
+		Node temp = head;
+		while(temp.next != null) temp = temp.next;
+		while(temp != null) {
+			System.out.print(temp.data+" ");
+			temp = temp.prev;
+		}
+		System.out.println();
+	}
+	 
+}
+
+public class DoublyLinkedListReversePrint {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		DLL dll = new DLL();
+		
+		int size = sc.nextInt();
+		int count = 0;
+		
+		while(count < size) {
+			dll.append(sc.nextInt());
+			count++;
+		}
+		System.out.println();
+		
+		dll.displayUnitRightToLeft();
+		
+		sc.close();
+	}
+		
+}
 
 
 /*
