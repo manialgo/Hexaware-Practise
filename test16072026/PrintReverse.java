@@ -59,7 +59,7 @@ public class PrintReverse{
 		
 		mergeSort(nums, 0, size-1);
 		
-		for(int i=0; i<size; i++) System.out.print(nums[i]+" ");
+		for(int i=size-1; i>=0; i--)  System.out.print((i==0) ? nums[i] : nums[i]+" ");
 		sc.close();
 	}
 }
