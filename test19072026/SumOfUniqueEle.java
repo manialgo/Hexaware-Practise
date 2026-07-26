@@ -45,7 +45,7 @@ public class SumOfUniqueEle{
 /*
 
 Problem statement:-
-Joe wants to find the sum of numbers that are unique to two lists of integers. He needs a program that takes two lists of integers as input and returns the sum of numbers that appear in only one of the lists. Help Joe by writing a C program that accomplishes this task.
+Joe wants to find the sum of numbers that are unique to two lists of integers. He needs a program that takes two lists of integers as input and returns the sum of numbers that appear in only one of the lists.
 
 Note: Return -1 if both arrays are null (None in the case of Python). If one of the arrays is null then return the sum of all elements of the other array
 
