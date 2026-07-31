@@ -1,1 +1,46 @@
 # Hexaware-Practise
+
+## Repo-Structure
+```
+Hexaware-Practise
+  |--- generalPattern
+        |--- AnagramCheck.java
+        |--- FirstNonRepeatingCharacter.java
+        |--- IsPrimeProblem.java
+        |--- MoveZerosToEnd.java
+        |--- TwoSumProblem.java
+  |--- test16072026
+        |--- BubbleSortProgram.java
+        |--- DoublyLinkedListReversePrint.java
+        |--- KRotation.java
+        |--- MatrixRotation.java
+        |--- NumberOfDistinctElement.java
+        |--- PrintReverse.java
+        |--- PythagorranTriplets.java
+        |--- SearchValue.c
+  |--- test17072026
+        |--- GearProblem.java
+        |--- NumberOfWaysInPowerOfN.java
+        |--- inversionCountProblem.java
+  |-- test18072026
+        |--- ProbabilityOfPouring.java
+        |--- PushNegToFront.java
+        |--- SmallerNumberCount.java
+  |--- test19072026
+        |--- DoublyLinkedListPalidromeCheck.java
+        |--- MaxProfit.java
+        |--- RemoveSpace.java
+        |--- SumOfUniqueEle.java
+  |--- test21072026
+        |--- BubbleSortProfitLossAnalysis.java
+        |--- FirstUniqueDish.java
+  |-- test23072026
+        |--- IndexOfTarget.java
+        |--- LongestCommonPrefix.java
+  |-- test25072026
+        |--- IdxAddMat.java
+        |--- SqrtOfSumOfSqEle.java
+        |--- StringFoundOnADict.java
+        |--- SumOfDiaEle.java
+
+```
