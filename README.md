@@ -42,5 +42,9 @@ Hexaware-Practise
         |--- SqrtOfSumOfSqEle.java
         |--- StringFoundOnADict.java
         |--- SumOfDiaEle.java
-
+  |--- test31072026
+        |--- LongestContinuousSequence.java
+        |--- PatternSolution.java
+        |--- PrintWithoutSpace.java
+        |--- WrongAndCorrectSum.java
 ```
