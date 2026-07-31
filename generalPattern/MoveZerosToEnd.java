@@ -73,3 +73,19 @@ public class MoveZerosToEnd {
 	}
   
 }
+
+
+/*
+
+Coding Challenge 2:-
+Arrays: Move Zeros to End
+
+Problem Statement:-
+Given an array, move all 0s to the end while maintaining the relative order of nonzero
+elements.
+
+Optimal Logic / Approach:-
+Use a two-pointer approach. Keep a variable 'count' initialized to 0. Traverse the array. If the current
+element is non-zero, swap it with arr[count] and increment count. This pushes all zeros to the right.
+
+*/
