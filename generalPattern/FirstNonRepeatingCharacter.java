@@ -31,3 +31,21 @@ public class FirstNonRepeatingCharacter {
 	}
 
 }
+
+
+/*
+
+Coding Challenge 1:-
+
+Strings: First Non-Repeating Character
+
+Problem Statement:-
+Write the logic to find the first non-repeating character in a string.
+E.g., for 'hexaware', 'h' is the first.
+
+Optimal Logic / Approach:
+
+Use a HashMap or an integer array of size 256. Traverse the string and store the frequency of each
+character. Traverse the string again and return the first character with a frequency of 1.
+
+*/
