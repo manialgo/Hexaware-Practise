@@ -9,6 +9,13 @@ Hexaware-Practise
         |--- IsPrimeProblem.java
         |--- MoveZerosToEnd.java
         |--- TwoSumProblem.java
+  |--- test01082026
+        |--- LastWord.java
+        |--- LongestCommonSubSequencePr
+  |--- test05082026
+        |--- ChevronPatternProblem.java
+        |--- MaxSumOfSubArray.java
+        |--- TotalDistance.java
   |--- test16072026
         |--- BubbleSortProgram.java
         |--- DoublyLinkedListReversePrint.java
@@ -47,4 +54,5 @@ Hexaware-Practise
         |--- PatternSolution.java
         |--- PrintWithoutSpace.java
         |--- WrongAndCorrectSum.java
+  |--- README.md
 ```
