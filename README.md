@@ -12,6 +12,10 @@ Hexaware-Practise
   |--- test01082026
         |--- LastWord.java
         |--- LongestCommonSubSequencePr
+  |--- test03082026
+        |--- NumberOfOperationsToEmpty.java
+        |--- RemoveDuplicateInString.java
+        |--- ValidParentheses.java
   |--- test05082026
         |--- ChevronPatternProblem.java
         |--- MaxSumOfSubArray.java
