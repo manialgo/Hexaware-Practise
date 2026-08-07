@@ -1,4 +1,50 @@
+import java.util.ArrayList;
+import java.util.Scanner;
 
+public class NumberOfOperationsToEmpty{
+
+    private static int smallestValue(ArrayList<Integer> list){
+        int min=Integer.MAX_VALUE;
+        for(int num : list) min = (min < num) ? min : num ;
+        return min;
+    }
+
+    private static int noOfOperations(ArrayList<Integer> list){
+        int min, res=0, size;
+        while(!list.isEmpty()){
+          min = smallestValue(list);
+          
+          if(min == list.get(0)) list.remove(0);  
+          else  list.add(list.remove(0));
+          //this is similar to left rotate of a list [check the leftRotate(ArrayList<Integer> list)]
+          res++;
+        }
+        return res;
+    }
+
+    
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+
+        int N = sc.nextInt();
+        ArrayList<Integer> list = new ArrayList<>();
+        for(int i=0; i<N; i++) list.add(sc.nextInt());
+
+	      int result = noOfOperations(list);
+        System.out.println(result);
+
+        sc.close();
+    }
+
+}
+
+/*
+    private static void leftRotate(ArrayList<Integer> list){
+	      int size = list.size(), temp = list.get(0), i;
+        for(i=0; i<size-1; i++) list.set(i, list.get(i+1));
+        list.set(i, temp);
+    }
+*/
 
 /*
 
